@@ -1,7 +1,7 @@
 <script lang="ts">
     import "@hanmotec/tsui-themes/tsui-themes.css"
     import "@hanmotec/advance-datatable/adv-table.css"
-    import "../themes/hanmo-app.scss"
+    import "../lib/hanmo-app-template.scss"
     import HomePage from "./HomePage.svelte";
     import FormPage from "./FormPage.svelte";
     import {onMount} from "svelte";

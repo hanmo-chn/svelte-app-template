@@ -2,4 +2,5 @@
 /.svelte-kit/
 /node_modules/
 /package/
-/src/lib/hanmo-app.css
+/src/lib/hanmo-app-template.css
+/package-lock.json

@@ -15,7 +15,5 @@
             <slot name="controlBar"/>
         </div>
     </div>
-    <div class="content-panel" {style}>
-        <slot></slot>
-    </div>
+    <slot></slot>
 </div>

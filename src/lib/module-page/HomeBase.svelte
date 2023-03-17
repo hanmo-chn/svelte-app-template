@@ -41,7 +41,5 @@
             <slot name="controlBar"></slot>
         </div>
     {/if}
-    <div class="content-panel">
-        <slot></slot>
-    </div>
+    <slot></slot>
 </div>

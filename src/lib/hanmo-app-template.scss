@@ -49,7 +49,7 @@
 
   .search-panel {
     width: 100%;
-    padding: 8px 16px;
+    padding: 8px 16px 0;
     box-sizing: border-box;
     flex-grow: 0;
     flex-shrink: 0;
@@ -122,6 +122,7 @@
   box-sizing: border-box;
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 .hanmo-list-pagination-footer {
