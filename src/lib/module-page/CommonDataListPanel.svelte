@@ -2,6 +2,7 @@
 
     import AdvanceDataTable from "@hanmotec/advance-datatable";
     import Pagination from "@hanmotec/tsui-pagination";
+    import {createEventDispatcher} from "svelte";
 
     export let columns = [];
     export let options:any = {};
@@ -12,6 +13,8 @@
     export let pageNo: number = 1;
     export let style: string = '';
     export let selectedRows:Array<any> = [];
+
+    let dispatch = createEventDispatcher();
 
     let tabOptions = {headerRowHeight: 32, rowHeight: 30, indicatorWidth: 40};
 
